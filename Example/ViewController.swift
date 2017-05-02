@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var defualtAnimatedGradientLabel: MJOHAnimatedGradientLabel!
 
-    @IBOutlet weak var customAnimatedGradinetLabel: MJOHAnimatedGradientLabel!
+    @IBOutlet weak var customAnimatedGradientLabel: MJOHAnimatedGradientLabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,14 +56,14 @@ class ViewController: UIViewController {
         
        
         // An IB label configures programatically.
-        customAnimatedGradinetLabel.gradientLayer.colors = [UIColor.green.cgColor, UIColor.orange.cgColor,  UIColor.yellow.cgColor, UIColor.green.cgColor ]
-        customAnimatedGradinetLabel.gradientLayer.direction = .leftToRight
-        customAnimatedGradinetLabel.gradientAnimation.fromValue = [0.0, 0.0, 0.0, 0.20]
-        customAnimatedGradinetLabel.gradientAnimation.toValue = [0.85, 0.90, 0.95, 1.0]
-        customAnimatedGradinetLabel.gradientAnimation.duration = 3.5
-        customAnimatedGradinetLabel.text = "Custom Text, Colors & Animations"
-        customAnimatedGradinetLabel.fontSize = 18.0
-        customAnimatedGradinetLabel.fontName = "Papyrus"
+        customAnimatedGradientLabel.gradientLayer.colors = [UIColor.green.cgColor, UIColor.orange.cgColor,  UIColor.yellow.cgColor, UIColor.green.cgColor ]
+        customAnimatedGradientLabel.gradientLayer.direction = .leftToRight
+        customAnimatedGradientLabel.gradientAnimation.fromValue = [0.0, 0.0, 0.0, 0.20]
+        customAnimatedGradientLabel.gradientAnimation.toValue = [0.85, 0.90, 0.95, 1.0]
+        customAnimatedGradientLabel.gradientAnimation.duration = 3.5
+        customAnimatedGradientLabel.text = "Custom Text, Colors & Animations"
+        customAnimatedGradientLabel.fontSize = 18.0
+        customAnimatedGradientLabel.fontName = "Papyrus"
         
         
         

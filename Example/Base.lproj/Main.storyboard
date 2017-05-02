@@ -40,7 +40,7 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="customAnimatedGradinetLabel" destination="FbW-87-c88" id="ouF-Qc-dXV"/>
+                        <outlet property="customAnimatedGradientLabel" destination="FbW-87-c88" id="Gce-U0-8qB"/>
                         <outlet property="defualtAnimatedGradientLabel" destination="yWE-Tg-EoG" id="X4A-qq-wxa"/>
                     </connections>
                 </viewController>
