@@ -9,7 +9,7 @@ Clone or use CocoaPods
 pod 'MJOHAnimatedGradientLabel', :git => 'https://github.com/manueljoranhernandez/MJOHAnimatedGradientLabel.git'
 ```
 ## Getting Started
-You can use the label via the Interface Builder or create it programatically. Check out the provided Example project for more information on how to customize a Label to suit your needs.
+You can use the label via the Interface Builder or create it programmatically. Check out the provided Example project for more information on how to customize a label to suit your needs.
 
 
 ## License
